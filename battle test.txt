@@ -1,0 +1,101 @@
+|j|☆atrack
+
+
+|j|☆Rithsagea
+
+
+|player|p1|atrack|1|
+
+
+|player|p2|Rithsagea|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Volcarona, F|item
+|poke|p1|Gliscor, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Mimikyu, F|item
+|poke|p1|Magearna|item
+|poke|p1|Ferrothorn, M|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Mimikyu, F|item
+|poke|p2|Magearna|item
+|poke|p2|Ferrothorn, M|item
+|teampreview
+
+
+|
+|start
+|switch|p1a: Wish Maker|Jirachi|341\/341
+|switch|p2a: Butterfly|Volcarona, F|100\/100
+|turn|1
+
+
+|
+|move|p1a: Wish Maker|Iron Head|p2a: Butterfly
+|-resisted|p2a: Butterfly
+|-damage|p2a: Butterfly|72\/100
+|cant|p2a: Butterfly|flinch
+|
+|upkeep
+|turn|2
+
+
+|
+|move|p1a: Wish Maker|Substitute|p1a: Wish Maker
+|-start|p1a: Wish Maker|Substitute
+|-damage|p1a: Wish Maker|256\/341
+|move|p2a: Butterfly|Quiver Dance|p2a: Butterfly
+|-boost|p2a: Butterfly|spa|1
+|-boost|p2a: Butterfly|spd|1
+|-boost|p2a: Butterfly|spe|1
+|
+|-heal|p1a: Wish Maker|277\/341|[from] item: Leftovers
+|upkeep
+|turn|3
+
+
+|c|☆atrack|testing
+
+
+|
+|move|p2a: Butterfly|Fiery Dance|p1a: Wish Maker
+|-supereffective|p1a: Wish Maker
+|-end|p1a: Wish Maker|Substitute
+|-boost|p2a: Butterfly|spa|1
+|move|p1a: Wish Maker|Iron Head|p2a: Butterfly
+|-resisted|p2a: Butterfly
+|-damage|p2a: Butterfly|44\/100
+|
+|-heal|p1a: Wish Maker|298\/341|[from] item: Leftovers
+|upkeep
+|turn|4
+
+
+|
+|move|p2a: Butterfly|Fiery Dance|p1a: Wish Maker
+|-supereffective|p1a: Wish Maker
+|-damage|p1a: Wish Maker|0 fnt
+|-boost|p2a: Butterfly|spa|1
+|faint|p1a: Wish Maker
+|
+|upkeep
+
+
+|-message|atrack forfeited.
+
+
+|
+|win|Rithsagea
